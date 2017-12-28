@@ -1,17 +1,18 @@
 .navbar{
-  background-color: #a0192b !important;
-  border-color: #a0192b;
-  max-height: 50px;
-  z-index: 1;
+  background-color:#fff;
+  margin-bottom: 100px;
 }
 
-.nav-link{
-  background-color:#a0192b;
-  border-color: #a0192b;
-  position: relative;
-  color: white !important;
+
+.navbar-nav > li > a{
+  color:#1E88E5;
+  font-size:16px;
+  font-weight:bold;
+  display: block;
+  background-color:#fff;
 }
 
-.nav-link:hover{
-  color: #5DD39E !important;
+.navbar-nav > li > a:hover{
+  color:#673ab7;
+  background-color:#f0f5f5;
 }
