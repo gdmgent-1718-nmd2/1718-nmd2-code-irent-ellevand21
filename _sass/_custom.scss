@@ -1,0 +1,39 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff;
+}
+.jumbotron {
+ background-color: #ffffff !important;
+  font-size: 15px;
+}
+.homeimage {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.jumbo {
+  position: relative;
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff !important;
+  letter-spacing: 2px;
+  font-size: 25px;
+  text-align: center;
+}
+.btn-default {
+  color: #ffffff;
+  background-color: #cbe6f0;
+  text-align: center;
+}
+.knoppen {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+.knoppen button {
+  margin-bottom: 20px;
+}

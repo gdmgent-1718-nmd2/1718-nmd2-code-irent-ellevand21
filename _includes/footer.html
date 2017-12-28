@@ -1,17 +1,15 @@
 <nav class="navbar fixed-bottom navbar-light bg-light">
 {%- if site.show-style-guide %}
-    <a href="{{ site.baseurl }}{% link style-guide/index.md %}" class="btn">Style Guide</a>
+    <footer class="footer">
+        <div class="container footeralign">
+            <p class="left">
+                <small>&copy; Arteveldehogeschool 2017-2018</small>
+            </p>
+            <p class="right"><small><a href="{{ site.baseurl }}{% link style-guide/index.md %}" class="btn">Style Guide</a></small></p>
+        </div>
+    </footer>
 {%- endif %}
 </nav>
 
-
-<nav class="navbar fixed-bottom navbar-light bg-light">
-    {%- if site.show-style-guide %}
-    <footer class="footer">
-        <div class="container">
-            <p>
-                <small>&copy; Arteveldehogeschool 2017-2018</small>
-            </p>
-        </div>
-    </footer>
-</nav>
+<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>

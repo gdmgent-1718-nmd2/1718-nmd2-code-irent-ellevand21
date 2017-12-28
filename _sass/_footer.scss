@@ -4,9 +4,22 @@
   bottom: 0;
   width: 100%;
   background-color: #FFFFFF;
-  padding-top: 5px;
   margin-top: 20px;
 }
 .fixed-bottom {
   position: relative;
+  height: 15px;
+}
+.right {
+  float: right;
+}
+.right a {
+  text-decoration: none !important;
+
+}
+.left {
+  float: left;
+}
+.footeralign {
+  clear: both;
 }

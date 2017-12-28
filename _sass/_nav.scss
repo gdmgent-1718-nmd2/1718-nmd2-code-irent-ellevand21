@@ -1,18 +1,19 @@
 .navbar{
-  background-color:#fff;
-  color: #42393d;
-}
+   background-color:#fff;
+   color: #42393d;
+ }
 
 
 .navbar-nav > li > a{
-  color:#1E88E5;
+  color:#000000;
   font-size:16px;
   font-weight:bold;
   display: block;
-  background-color:#fff;
+  background-color:#f9d5dd;
 }
 
 .navbar-nav > li > a:hover{
-  color:#673ab7;
-  background-color:#f0f5f5;
+  color:#000000;
+  background-color:#f9d5dd;
+  text-decoration: none;
 }
