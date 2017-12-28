@@ -3,3 +3,24 @@
     <a href="{{ site.baseurl }}{% link style-guide/index.md %}" class="btn">Style Guide</a>
 {%- endif %}
 </nav>
+
+
+<nav class="navbar fixed-bottom navbar-light bg-light">
+    {%- if site.show-style-guide %}
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <small>&copy; Arteveldehogeschool 2017-2018</small>
+            </p>
+        </div>
+    </footer>
+
+    <div class="socialmedia">
+        <a class="fb-button"></a>
+        <a class="tw-button"></a>
+        <a class="apple-button"></a>
+        <a class="google-button"></a>
+    </div>
+
+    {%- endif %}
+</nav>

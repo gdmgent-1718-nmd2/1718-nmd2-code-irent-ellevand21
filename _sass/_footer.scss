@@ -1,0 +1,46 @@
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FFFFFF;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+.socialmedia a{
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  margin: 2px;
+  background-image: url(sprites.png);
+  background-size: 70px auto;
+  text-indent: -9999px;
+
+
+}
+.fb-button{
+  background-position: 0px 0px;
+}
+
+.fb-button:hover{
+  background-position: -23px 0px;
+}
+
+.fb-button:active{
+  background-position: -46px 0px;
+}
+
+
+
+.tw-button{
+  background-position: 0px -23px;
+}
+
+.tw-button:hover{
+  background-position: 46px -23px;
+}
+
+.tw-button:active{
+  background-position: 23px -23px;
+}
