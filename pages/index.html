@@ -1,13 +1,68 @@
----
-layout   : default
-permalink: /
-# Custom Page Variables
-# ─────────────────────
-title: Bootstrap 4 &mdash; Voorbeeld
----
-<div class="jumbotron">
-    <h1 class="display-3">{{ page.title }}</h1>
-</div>
-<div class="container">
-    <a class="btn btn-primary" href="http://getbootstrap.com/docs/4.0/getting-started/introduction/">Bootstrap 4 documentation</a>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wingman</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/nav.css" type="text/css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/about.html">About us</a></li>
+                    <li><a href="pages/manual.html">How does it work?</a></li>
+                    <li><a href="pages/join.html">Join</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <div class="container">
+        <h1 class="display-3"><a>"Hey Buddy, are you gonna be my wingman tonight?"</a></h1>
+        <img src="html5/images/couple-love-water-summer.jpg" class="img-responsive center-block" alt="Responsive image">
+        </div>
+    </div>
+    <div class="container">
+        <p>Have you ever wanted a guy/girl so bad? You needed a wingman but no one was up for the job? Yeah, so did we…</p>
+
+        <p>As much fun as your friends can be, they can also embarrass you and screw up your chances with a guy/girl. Sometimes you just need that wingman that knows just what to do and helps you get the guy/girl. But no more embarrassing and awkward moments with Wingman.</p>
+        <div class="col-sm-6">
+        <button class="btn btn-default btn-block">How Does It Work?</button>
+        <button class="btn btn-default btn-block">Join Now</button>
+        </div>
+    </div>
+
+<footer class="footer">
+    <div class="container">
+        <p>
+            <small>&copy; Arteveldehogeschool 2017-2018</small>
+        </p>
+    </div>
+</footer>
+
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
