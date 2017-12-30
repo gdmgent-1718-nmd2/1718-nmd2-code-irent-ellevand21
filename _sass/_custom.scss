@@ -33,23 +33,50 @@ p {
   color: #ffffff;
   background-color: #cbe6f0;
   text-align: center;
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #cbe6f0;
+  letter-spacing: 2px;
+}
+.btn-default:hover {
+  border: 2px solid #cbe6f0;
+  background-color: #FFFFFF;
+  color: #cbe6f0;
+}
+.btn-primary {
+  color: #000000;
+  background-color: #f9d5dd;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #f9d5dd;
+  letter-spacing: 2px;
+}
+.btn-primary:hover {
+  border: 2px solid #f9d5dd;
+  background-color: #FFFFFF;
+  color: #f9d5dd;
 }
 .knoppen {
   text-align: center;
   margin: 0 auto;
   padding-top: 15px;
 }
-.knoppen a {
-  margin-bottom: 10px;
-  font-weight: 700;
-  text-decoration: none;
-  color: #FFFFFF;
+.leftside {
+  position: absolute;
+  color: #000000 !important;
+  letter-spacing: 3px;
+  font-size: 20px;
+  text-align: left;
+  margin: 40px;
   text-transform: uppercase;
-  border: 2px solid #cbe6f0;
-  letter-spacing: 2px;
 }
-.knoppen a:hover {
-  border: 2px solid #cbe6f0;
-  background-color: #FFFFFF;
-  color: #cbe6f0;
+
+.manual li {
+  font-size: 15px;
+  font-family: "Raleway medium", sans-serif;
 }
