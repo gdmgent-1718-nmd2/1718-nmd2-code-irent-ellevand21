@@ -1,11 +1,13 @@
-
 ---
 layout   : default
-permalink: /manual.html
+permalink: /manual
 # Custom Page Variables
 # ─────────────────────
 title: How does it work?
 ---
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 <!--
 <!DOCTYPE html>
 <html lang="en">
@@ -40,9 +42,9 @@ title: How does it work?
     </div>
 </nav>
 -->
-
+<div class="jumbotron">
 <div class="container">
-    <img src="../html5/images/pexels-photo-708440.jpg" class="img-responsive center-block" alt="Responsive image">
+    <img src="{{ site.baseurl }}{% link images/pexels-photo-708440.jpg %}" class="img-responsive center-block" alt="Responsive image">
     <h1>How Does It Work?</h1>
 
     <h2>First of, what's a wingman?</h2>
@@ -87,8 +89,9 @@ title: How does it work?
     <p class="lead">"Hey Buddy, are you gonna be my Wingman tonight?" </p>
     <!--</blockquote>-->
 
-    <button type="button">Join Now</button>
+    <a type="btn btn-default btn-block">Join Now</a>
 
     <p>Explanation wonderfully provided by <a href="">Urban Dictionary</a></p>
 
+</div>
 </div>

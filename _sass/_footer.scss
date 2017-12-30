@@ -3,19 +3,25 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #FFFFFF;
   margin-top: 20px;
+  background-color: #FFFFFF;
 }
 .fixed-bottom {
   position: relative;
-  height: 15px;
+  height: 5px;
 }
 .right {
   float: right;
 }
 .right a {
   text-decoration: none !important;
-
+  color: #42393d;
+  font-size: x-small;
+}
+.right a:hover {
+  text-decoration: none !important;
+  color: #e0e0e0;
+  font-size: x-small;
 }
 .left {
   float: left;
