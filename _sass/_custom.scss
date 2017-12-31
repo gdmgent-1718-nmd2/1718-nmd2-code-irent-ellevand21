@@ -1,8 +1,14 @@
 body {
   background-color: #ffffff;
 }
-h2 {
+h2, h3, h4 {
   font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+h4 {
+  font-size: 18px;
+  padding: 10px 0 20px 0;
 }
 p {
   font-family: "Raleway medium", sans-serif;
@@ -58,8 +64,8 @@ p {
 }
 .btn-primary:hover {
   border: 2px solid #f9d5dd;
-  background-color: #FFFFFF;
-  color: #f9d5dd;
+  background-color: #f9d5dd;
+  color: #494949;
 }
 .knoppen {
   text-align: center;
@@ -75,8 +81,47 @@ p {
   margin: 40px;
   text-transform: uppercase;
 }
-
+.manual p {
+  font-size: 10px !important;
+}
 .manual li {
   font-size: 15px;
   font-family: "Raleway medium", sans-serif;
+}
+
+.title {
+  margin-top: 100px;
+}
+.terms a {
+  text-decoration: none;
+  color: #42393d;
+}
+.terms a:hover {
+  color: #e0e0e0;
+}
+
+.contact, #contact {
+  background-color: #f9f9f9;
+  border: none;
+}
+.contact, #contact {
+  background-color: #f9f9f9;
+  border: none;
+}
+label {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+#name, #email, #inputPassword1, #inputEmail1, #inputEmail2,#inputPassword2, #date {
+  background-color: #f9f9f9;
+}
+.lead {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.test {
+  padding-top: 10px;
+  font-size: x-small;
 }
